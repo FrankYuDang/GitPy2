@@ -9,7 +9,7 @@ x1 = np.linspace(0.0, 5.0)
 x2 = np.linspace(0.0, 2.0)
 print(x1)
 y1 = np.cos(3 * np.pi * x1) * np.exp(-x1)
-y2 = np.cos(4 * np.pi * x2)
+y2 = np.cos(6 * np.pi * x2)
 # One figure
 one_fig, one_ax = plt.subplots()
 ln1 = one_ax.plot(x1, y1, '.r', label = 'Sin')
